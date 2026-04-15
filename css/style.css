@@ -1,0 +1,183 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    width: 100%;
+    height: auto;
+    background-color: rgb(14,41,75);
+    padding: 30px;
+    box-sizing: border-box;
+}
+nav {
+    width: 100%;
+    height: auto;
+}
+nav > ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+}
+nav > ul > li{
+    list-style-type: none;
+}
+nav > ul > li > a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+nav > ul > li > a:hover{
+    color: black;
+}
+
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(14,41,75)
+}
+footer > p{
+    color: rgb(8, 8, 8);
+    margin:0;
+    font-size: larger;
+}
+main{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+.popular-tovar{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+  
+}
+.popular-tovar > h3{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: larger;
+}
+
+.tovar-list{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width:100%;
+    display: flex;
+    padding:0 20px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+.tovar-card{
+    width: 30%;
+    height: auto;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.tovar-img {
+    display: flex;
+    justify-content: center;
+}
+.tovar-info{
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+.tovar-info > a {
+    color: white;
+    background-color: rgb(14,41,75);
+    padding: 3px 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin:0 0 20px;
+}
+
+.tovar-info > a:hover{
+    color: rgb(192, 215, 250);
+    background-color: rgb(157,177,204);
+    transform:rotate();
+}
+.tovar-info > p {
+    font-size: larger;
+}
+.tovar-card:hover{
+    transform:scale(1.06);
+    border-color: rgb(46, 126, 231);
+    box-shadow: 0 0 15px rgba (0, 123, 255, 0.5);
+}
+
+.product-page{
+    width: 100%;
+    display: flex;
+    height: auto;
+    gap: 20px;
+    padding: 50px 0;
+}
+
+.tovar-img-page{
+    width: 45%;
+    height: auto;
+    margin-left: 50px;
+}
+
+.tovar-info-page{
+    width: 60%;
+    height: auto;
+}
+
+.tovar-info-page > h1{
+    margin-bottom: 30px;
+}
+
+.tovar-info-page:nth-child(2){
+    line-height: 1.5;
+}
+.price {
+    color: rgb(2, 0, 0);
+    width:35%;
+    height: auto;
+    background-color: rgb(157,177,204);
+    padding: 30px 50px;
+    border-radius: 20px;
+    font-size: larger;
+}
+
+.tovar-info-page > button{
+    width: 45%;
+    height: auto;
+    border-radius: 10px ; 
+    border: 0;
+    padding: 10px;
+    background-color: rgb(157,177,204);
+    color: black;
+    transform: all 0.3s ease;
+}
+
+.tovar-info-page > button:hover{
+    cursor: pointer;
+    background: transparent;
+    color:  rgb(65, 65, 139);
+    border: 1px solid  rgb(0, 0, 128);
+}
+
+.catalog > h3{
+    text-align: center;
+}
+
+img {
+    height: auto;
+    display: flex;
+    max-width: 50%;
+}
+
+.tovar-card{
+  border: 4px solid #fff;
+  border-radius: 10px;
+  box-shadow: 
+    0 0 10px #fff, 
+    0 0 20px rgb(188, 193, 243);  
+}
